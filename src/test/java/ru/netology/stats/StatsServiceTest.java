@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class StatsServiceTest {
 
     @Test
-    public void ShouldFindSumOfSales() {
+    public void shouldFindSumOfSales() {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -18,7 +18,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void ShouldFindAverageSum() {
+    public void shouldFindAverageSum() {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -30,7 +30,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void ShouldFindNumberOfMaxSalesMonthTheLast() {
+    public void shouldFindNumberOfMaxSalesMonthTheLast() {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -42,7 +42,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void ShouldFindNumberOfMinSalesMonthTheLast() {
+    public void shouldFindNumberOfMinSalesMonthTheLast() {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -54,7 +54,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void CounterOfMonthLessAverage() {
+    public void counterOfMonthLessAverage() {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -67,7 +67,7 @@ public class StatsServiceTest {
 
 
     @Test
-    public void CounterOfMonthMoreAverage() {
+    public void counterOfMonthMoreAverage() {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
